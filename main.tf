@@ -7,5 +7,5 @@ module "ec2" {
 
 module "s3" {
   source      = "./modules/s3"
-  bucket_name = "aiit-s3 _module_bucket"
+  bucket_name = "aiit-terraform-bucket"
 }
